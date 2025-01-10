@@ -1,0 +1,94 @@
+.body-div {
+  margin: 50px 100px 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-div p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+table {
+  width: 100%;
+  border-collapse: separate; /* Required for border-radius */
+  border-spacing: 0; /* Remove spacing between cells */
+  border: 1px solid #ddd; /* Table border color */
+  border-radius: 8px; /* Rounded corners for the table */
+  overflow: hidden; /* Ensures content does not overflow rounded corners */
+  margin: 20px 0; /* Margin around the table */
+}
+
+thead {
+  background-color: #f4f4f4; /* Header background color */
+}
+
+thead th {
+  padding: 12px; /* Padding for header cells */
+  border-bottom: 2px solid #ddd; /* Bottom border for header cells */
+  text-align: left; /* Align text to the left */
+  color: #333; /* Text color */
+}
+
+tbody td {
+  padding: 12px; /* Padding for body cells */
+  border-bottom: 1px solid #ddd; /* Bottom border for body cells */
+  color: #666; /* Text color */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row color */
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1; /* Row hover color */
+}
+
+tfoot {
+  background-color: #f4f4f4; /* Footer background color (if needed) */
+}
+
+tfoot td {
+  padding: 12px; /* Padding for footer cells */
+  border-top: 2px solid #ddd; /* Top border for footer cells */
+  text-align: right; /* Align text to the right */
+  color: #333; /* Text color */
+}
+.delete-btn {
+  height: 40px;
+  width: 70px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.create-btn {
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 30px;
+  border: 2px solid blueviolet;
+}
+.create-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+.update-btn {
+  height: 40px;
+  width: 70px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.confirm-btn,
+.cancel-btn{
+    height: 40px;
+  width: 70px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

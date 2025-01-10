@@ -1,0 +1,132 @@
+.contentParent {
+  padding-top: 50px;
+}
+.content h1 {
+  text-align: center;
+}
+.Form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchAndFilters {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.searchBar {
+  padding: 0;
+  background-color: blueviolet;
+  border-radius: 10px;
+  width: fit-content;
+  padding-left: 2px;
+}
+.searchAndFilters input {
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+  width: 350px;
+  padding: 10px 10px 10px 20px;
+  border: 2px solid blueviolet;
+}
+
+.searchAndFilters button {
+  margin: 0;
+  height: 45px;
+  width: 100px;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+.searchAndFilters select {
+  width: fit-content;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  padding: 10px 0 10px 10px;
+  margin: 20px 20px 20px 20px;
+}
+.filters {
+  display: flex;
+}
+
+.img-container img {
+  object-fit: contain;
+  object-position: center;
+}
+.card a {
+  width: 100%;
+  background-color: rgb(0, 166, 255);
+  border: 0 0 20px 20px;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-results-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center cards in container */
+  padding: 20px;
+}
+
+.car-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.car-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.search-car-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-details {
+  padding: 15px;
+}
+
+.car-model {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.car-brand,
+.car-price,
+.car-location,
+.car-year,
+.car-fuel {
+  margin: 5px 0;
+  color: #666;
+}
+
+.car-price {
+  font-weight: bold;
+}

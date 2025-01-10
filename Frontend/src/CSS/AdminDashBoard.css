@@ -1,0 +1,143 @@
+.admin-dashboard-container {
+  padding-top: 100px;
+  height: 170px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  background-color: white;
+}
+.admin-dashboard-container a {
+  text-decoration: none;
+  margin-right: 30px;
+  height: 70px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  transition: 0.5s;
+  color: black;
+}
+
+.line {
+  width: 100%;
+  height: 0.1px;
+  background-color: grey;
+}
+/* Default link style */
+.active-div {
+  text-decoration: none;
+  position: relative; /* Allows for positioning the line below the text */
+}
+
+/* Active state (with blueviolet underline) */
+.active-div::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust the line's distance from the text */
+  width: 100%;
+  height: 4px;
+  background-color: blueviolet;
+}
+
+.admin-profile-body {
+  margin: 50px 100px 50px 100px;
+}
+.admin-profile-body h2,
+.admin-profile-body p {
+  text-align: center;
+}
+.admin-logout-btn {
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  transition: 0.5s;
+}
+.admin-logout-btn:hover {
+  background-color: transparent;
+  color: black;
+}
+.admin-overview {
+  height: 200px;
+  width: 90%;
+  background-color: white;
+  border-radius: 20px;
+  /* background-color: #FFF0D1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overview-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.overview-divs {
+  border-radius: 20px;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  margin-right: 50px;
+}
+.overview-divs h4 {
+  font-size: 50px;
+  text-align: center;
+}
+.overview-divs p {
+  text-align: center;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Container for the overview section */
+.admin-overview {
+  display: flex;
+  justify-content: space-between; /* Space out the divs evenly */
+  padding: 20px;
+  background-color: blueviolet; /* Light background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for each overview div */
+.overview-divs {
+  flex: 1; /* Allows divs to grow and shrink equally */
+  margin: 0 10px; /* Space between divs */
+  text-align: center; /* Center text horizontally */
+  padding-top: 10px;
+  background-color: #ffffff; /* White background for each div */
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Heading styling */
+.overview-divs h4 {
+  font-size: 50px; /* Font size for the count */
+  color: #333; /* Darker text color for contrast */
+  margin: 0; /* Remove default margin */
+}
+
+/* Paragraph styling */
+.overview-divs p {
+  font-size: 16px; /* Font size for the description */
+  color: #666; /* Lighter text color */
+}
+.revenue-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

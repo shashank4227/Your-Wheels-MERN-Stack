@@ -1,0 +1,75 @@
+.buyer-dashboard-container{
+    padding-top: 140px;
+    background-color: rgb(243, 243, 243);
+    height: 100vh;
+    display: flex;
+}
+.buyer-left-panel{
+    padding: 10px;
+    padding-top: 40px;
+    width: 20%;
+    background-color: white;
+    height: 90%;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.buyer-right-panel{
+    width: 70% ;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 30px;
+    overflow: scroll;
+    
+}
+.buyer-overview-container{
+    padding: 5px 0 25px 0;
+    background-color: rgb(236, 246, 249);
+    border-radius: 20px;
+}
+.buyer-overview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.description{
+    margin-top: 10px;
+}
+.dashboard-divs{
+    margin-top: 30px;
+    background-color: rgb(236, 246, 249);
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+}
+.dashboard-divs h3{
+    text-align: left;
+}
+.buying-vehicles{
+    background-color: rgb(236, 246, 249);
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buying-vehicles a{
+    text-decoration: none;
+    color:black;
+}
+.logout-btn{
+    background-color: rgb(236, 246, 249);
+    height: 50px;
+    width: 100%;
+    font-size:medium;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

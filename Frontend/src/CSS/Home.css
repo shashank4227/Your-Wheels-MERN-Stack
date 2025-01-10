@@ -1,0 +1,118 @@
+.hero {
+  padding-top: 100px;
+}
+.feature-slider {
+  text-align: center;
+  margin: 20px auto;
+  width: 90%;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.slide-wrapper {
+  position: relative;
+  max-width: 1400px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slide-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.slide-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.navigation-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: #333;
+  padding: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navigation-arrow.left {
+  left: -40px;
+}
+
+.navigation-arrow.right {
+  right: -40px;
+}
+
+.indicator-dots {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.indicator-dot {
+  height: 7px;
+  width: 7px;
+  margin: 0 5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.indicator-dot.active {
+  background-color: blueviolet;
+}
+.features-container {
+  display: flex;
+}
+.circle-div {
+  background-color: blueviolet;
+  height: 600px;
+  width: 600px;
+  transform: translateX(180px) translateY(-50px);
+  border-radius: 80%;
+}
+.feature-image {
+  transform: translateX(-150px) translateY(50px);
+}
+.features {
+  margin: 150px 0 0 30px;
+  text-align: left;
+}
+.features h1 {
+  font-size: 60px;
+}
+.features h3{
+  text-align: left;
+}
+.car-slider h1 {
+  font-size: 50px;
+}
+.showroom-container{
+  margin: 100px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+}
+.showroom-container img{
+  object-fit: cover;
+  object-position: center;
+  height: 320px;
+  width: 180;
+  
+}
+.showrooms-image-container{
+  height: 100px;
+  border-radius: 30px;
+  overflow: hidden;
+}
